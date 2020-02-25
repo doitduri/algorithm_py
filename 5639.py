@@ -2,8 +2,7 @@ def post(e):
     if e == '': return
     post(d[e][0])
     post(d[e][1])
-    print
-    e
+    print(e)
 
 
 e = []
